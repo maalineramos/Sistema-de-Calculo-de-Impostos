@@ -44,7 +44,7 @@ public class Program {
 		}
 		
 		System.out.println();
-		System.out.println("TAXES PAID: ");
+		System.out.println("IMPOSTOS PAGOS: ");
 		for (TaxPayer tp : list) {
 			System.out.println(tp.getName() + ": $ " + String.format("%.2f", tp.tax()));
 		}
@@ -54,7 +54,7 @@ public class Program {
 		for (TaxPayer tp : list) {
 			sum += tp.tax();
 		}
-		System.out.println("TOTAL TAXES: $ " + String.format("%.2f", sum));
+		System.out.println("TOTAL DE IMPOSTOS: $ " + String.format("%.2f", sum));
 	
 		sc.close();
 	}
